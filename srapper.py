@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 import requests
 
-url = "http://www.medindia.net/drug-price/index.asp?alpha="
+url = ""
 for join in range(1,1):
     r = requests.get(url+chr(join+64))
 
